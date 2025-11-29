@@ -1,0 +1,118 @@
+title: "Troy Wilson Sport Science"
+name: "Troy Wilson"
+email: "troywilson.sportscience@gmail.com"
+description: "Applied sport science, strength and conditioning, and data analytics for high-performance sport."
+url: "https://troywilson.sportscience.github.io"
+baseurl: ""
+repository: "troywilsonsportscience/troywilson.sportscience.github.io"
+
+theme: null
+remote_theme: "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin: "default"
+
+search: true
+search_full_content: true
+lunr_search: true
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  case_studies:
+    output: true
+    permalink: /case-studies/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: "projects"
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: "case-studies"
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+
+author:
+  name: "Troy Wilson"
+  avatar: "/assets/img/avatar-placeholder.png"
+  bio: "Sport scientist, strength and conditioning coach, and data analyst working in high-performance sport."
+  location: "Calgary, Alberta"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/troywilsonsportscience"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/troywilson.sportscience"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/troywilsonsportscience"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/troywilson.sportscience"
+
+nav:
+  projects:
+    - title: "All Projects"
+      url: "/projects/"
+  case-studies:
+    - title: "Case Studies"
+      url: "/case-studies/"
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
