@@ -8,7 +8,7 @@ main:
   - title: "Projects"
     url: "/projects/"
     children:
-      - title: "All Projects"
+      - title: "Projects"
         url: "/projects/"
       - title: "Case Studies"
         url: "/case-studies/"
