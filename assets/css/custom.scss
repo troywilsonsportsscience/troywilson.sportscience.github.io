@@ -32,3 +32,44 @@ body.dark-mode a {
 .post-list li {
   margin-bottom: 0.75rem;
 }
+
+/* --- Section spacing improvements --- */
+.page__content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-list li,
+.post-list li {
+  margin-bottom: 1.4rem;
+  line-height: 1.5;
+}
+
+/* --- Make feature_row cards more distinct --- */
+.feature__item {
+  background: #0f172a;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+
+.feature__item h3 {
+  margin-top: 0;
+}
+
+.feature__item p {
+  margin-bottom: 0.8rem;
+}
+
+/* --- Improve list readability --- */
+.project-list a,
+.post-list a {
+  font-weight: 600;
+}
+
+/* --- Reduce text width on wide screens for better focus --- */
+.page__content {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
