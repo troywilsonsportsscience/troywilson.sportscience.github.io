@@ -1,10 +1,13 @@
-title: "Troy Wilson Sport Science"
+title: "Troy Wilson Sports Science"
 name: "Troy Wilson"
 email: "troywilson.sportscience@gmail.com"
 description: "Applied sport science, strength and conditioning, and data analytics for high-performance sport."
 url: "https://troywilsonsportsscience.github.io"
 baseurl: ""
 repository: "troywilsonsportsscience/troywilsonsportsscience.github.io"
+
+navigation:
+  style: "dropdown"
 
 theme: null
 remote_theme: "mmistakes/minimal-mistakes"
