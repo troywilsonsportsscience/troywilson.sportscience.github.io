@@ -13,6 +13,7 @@ theme: null
 remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin: "default"
+enable_darkmode: true
 
 search: true
 search_full_content: true
