@@ -103,6 +103,13 @@ body.dark-mode a {
   margin-bottom: 0.9rem !important; /* Tighter spacing under card text. */
 }
 
+/* FEATURE CARD TEXT READABILITY */
+.page__content .feature__item,
+.page__content .feature__item h3,
+.page__content .feature__item p,
+.page__content .feature__item a {
+  color: #f8fafc !important;   /* very light slate (nearly white) */
+}
 
 /* ======================= */
 /* GLOBAL CONTENT WIDTH     */
